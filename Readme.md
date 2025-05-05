@@ -13,9 +13,6 @@ Bu proje, HTML ve CSS bilgilerini geliştirmek amacıyla hazırlanmış bir **ka
 - ✅ Instagram ve LinkedIn hesaplarına yönlendiren bağlantılar
 - ✅ Sayfa altı `footer` alanında kişisel LinkedIn bilgisi
 
-## 🖼️ Ekran Görüntüsü
-
-![Form Görseli](img/form-preview.png)
 
 ## 🛠️ Kullanılan Teknolojiler
 
