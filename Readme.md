@@ -43,7 +43,6 @@ Proje şu anda sadece yerel olarak çalışmaktadır. Aşağıdaki adımları iz
 
 **Ekin Öztürk**  
 [LinkedIn Profilim](https://www.linkedin.com/in/ekin-%C3%B6zt%C3%BCrk-a06659249/)  
-[Instagram](https://www.instagram.com/ekinozturk35/)
 
 ## 📝 Lisans
 
