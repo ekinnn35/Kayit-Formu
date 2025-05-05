@@ -1,0 +1,137 @@
+/* Genel Ayarlar */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #facc15; /* Sarı zemin */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+  }
+  
+  .container {
+    background-color: #1e3a8a; /* Lacivert kutu */
+    padding: 2rem;
+    border-radius: 1rem;
+    max-width: 500px;
+    width: 100%;
+    color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+  }
+  
+  /* Başlıklar */
+  .link-white {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .link-white:hover {
+    color: #facc15; /* sarı hover efekti */
+    text-decoration: underline;
+  }
+  
+  h1#title {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #f9fafb;
+  }
+  
+  p#description {
+    text-align: center;
+    font-size: 0.95rem;
+    color: #d1d5db;
+    margin-bottom: 2rem;
+  }
+  
+  /* Form Elemanları */
+  form#survey-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  label {
+    font-size: 0.95rem;
+    color: #dbeafe;
+  }
+  
+  input, select, textarea {
+    padding: 0.6rem;
+    border: 1px solid #3b82f6;
+    border-radius: 6px;
+    background-color: #1e40af;
+    color: #f3f4f6;
+    font-size: 0.9rem;
+  }
+  
+  input:focus, select:focus, textarea:focus {
+    outline: none;
+    border-color: #2563eb;
+    box-shadow: 0 0 0 2px #2563eb66;
+  }
+  
+  textarea {
+    resize: vertical;
+    min-height: 80px;
+  }
+  
+  button#submit {
+    background-color: #2563eb;
+    border: none;
+    padding: 0.8rem;
+    color: white;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button#submit:hover {
+    background-color: #1d4ed8;
+  }
+  
+  /* Checkbox ve Radio Grupları */
+  .checkbox-group, .radio-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .checkbox-group label, .radio-group label {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    cursor: pointer;
+  }
+  
+  /* Footer */
+  footer {
+    margin-top: 2rem;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+    font-size: 0.85rem;
+    background-color: #1e3a8a;
+    color: white;
+  }
+  
+  footer a {
+    color: #facc15;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+  }
+  
+  

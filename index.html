@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kayıt Formu</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 id="title">Survey Form For CSS Practice</h1>
+    <p id="description">CSS uygulaması için hazırlanmış örnek bir kayıt formudur.</p>
+
+    <form id="survey-form">
+      <!-- İsim -->
+      <label for="name" id="name-label">Full Name</label>
+      <input type="text" id="name" name="name" placeholder="Adınızı giriniz" required>
+
+      <!-- E-posta -->
+      <label for="email" id="email-label">Mail</label>
+      <input type="email" id="email" name="email" placeholder="E-posta adresiniz" required>
+
+      <!-- Yaş -->
+      <label for="number" id="number-label">Age</label>
+      <input type="number" id="number" name="age" min="10" max="100" placeholder="Yaşınızı girin">
+
+      <!-- Cinsiyet Dropdown -->
+      <label for="dropdown">Select Gender</label>
+      <select id="dropdown" name="gender">
+        <option value="">Select...</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+
+      <!-- Radyo Butonlar: Nereden duydunuz? -->
+<p>Where did you hear us?</p>
+
+<div class="radio-group">
+    <label>
+      <input type="radio" name="ref" value="instagram">
+      <a href="https://www.instagram.com/ekinozturk35/" target="_blank" class="link-white">Instagram</a>
+    </label>
+    <label>
+      <input type="radio" name="ref" value="linkedin">
+      <a href="https://www.linkedin.com/in/ekin-%C3%B6zt%C3%BCrk-a06659249/" target="_blank" class="link-white">LinkedIn</a>
+    </label>
+  </div>
+  
+
+      <!-- Onay kutuları -->
+      <label><input type="checkbox" value="terms"> Terms Of Service</label>
+      <label><input type="checkbox" value="subscribe"> Subscribe For News</label>
+
+      <!-- Metin Alanı -->
+      <label for="suggestions">Suggestions</label>
+      <textarea id="suggestions" placeholder="Görüşlerinizi yazın..."></textarea>
+
+      <!-- Gönder Butonu -->
+      <input type="submit" id="submit" value="Sign Up">
+    </form>
+  </div>
+  <footer class="custom-footer text-center mt-5 py-3">
+    <p class="mb-1 text-white">Ekin Öztürk 2025 | Full Stack Developer</p>
+    <div class="footer-links">
+      <a href="https://www.linkedin.com/in/ekin-%C3%B6zt%C3%BCrk-a06659249/" target="_blank" class="text-white me-3">
+        <i class="fab fa-linkedin"></i> Linkedin
+      </a>
+      <a href="https://github.com/ekinnn35" target="_blank" class="text-white">
+        <i class="fab fa-instagram"></i> | Github
+      </a>
+    </div>
+  </footer>
+  
+</body>
+</html>
